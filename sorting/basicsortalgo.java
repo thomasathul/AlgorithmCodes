@@ -1,14 +1,4 @@
 
-import java.util.*;
-
-public class basicsortalgo {
-   public static void main(String args[])
-   {
-       bubblesort(new int[]{4,7,2,7,2,8});
-       insertionsort(new int[]{4,7,2,7,2,8});
-       selectionsort(new int[]{4,7,2,7,2,8});
-       
-   }
    //Bubble Sort
    public static void bubblesort(int arr[])
    {
