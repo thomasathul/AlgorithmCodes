@@ -1,21 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.sorting;
 
-import java.util.*;
-
-/**
- *
- * @author Dell
- */
-public class mergesorting {
-     public static void main(String args[])
-      {
-          mergesort(new int[] {5,7,2,8,3,6,7});
-      }
       public static void mergesort(int[] A)
       {
           divconq(A,0,A.length-1);
