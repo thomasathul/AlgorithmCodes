@@ -1,14 +1,4 @@
 
-
-import java.util.*;
-
-
-public class countsort {
-    public static void main(String[] args)
-    {
-        countsort(new int[] {1,4,5,6,4,3,6,4,6,4,8,5,8,2,4,7,9,3,5,7,2,1,5,7,8,4,2,5,7,8,3,2,1,4,7,9,3,3,1,5,7,10,4,2,4,6,2,6,8,3,1,5,8,4,8,10});
-        
-    }
    public static void countsort(int a[])
     {
         int max=max(a);
