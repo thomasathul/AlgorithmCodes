@@ -1,27 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.sorting;
-import java.util.*;
-/**
- *
- * @author Dell
- */
-public class lomuto {
-    public static void main(String[] args)
-    {
-        
-        findlomuto(new int[] {4,6,5,1,6});
-        hoare(new int[] {4,6,5,1,6});
-    }
+
     public static void findlomuto(int A[])
     {
         int low=0;
         int high=A.length-1;
         lomuto(A,low,high);
     }
+    //lomuto algo
     public static void lomuto(int A[],int low,int high)
     {
         int pivot=A[high];
@@ -41,6 +25,7 @@ public class lomuto {
         System.out.println("Lomuto:"+ Arrays.toString(A));
         
     }
+    //hoare algo
     public static void hoare(int A[])
     {
         int pivot=A[0];
