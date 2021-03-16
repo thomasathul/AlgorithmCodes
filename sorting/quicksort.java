@@ -1,19 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.mycompany.sorting;
-import java.util.*;
-/**
- *
- * @author Dell
- */
-public class quicksort {
-    public static void main(String[] args)
-    {
-          tosort(new int[] {4,7,2,8,4,9,2,8});
-    }
+
     public static void tosort(int A[])
     {
         int low=0;
