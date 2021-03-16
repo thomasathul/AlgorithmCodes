@@ -2,10 +2,7 @@
 
 import java.util.*;
 
-/**
- *
- * @author Dell
- */
+
 public class countsort {
     public static void main(String[] args)
     {
