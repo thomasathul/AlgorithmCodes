@@ -1,2 +1,2 @@
 # DS & Algorithm Codes
-Different Algorithm codes for reference and learning
+Different Data structures & Algorithm codes for reference and learning
